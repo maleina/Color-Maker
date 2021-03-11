@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func changeColorComponent() {
+        
+        // Make sure the program doesn't crash if the controls aren't connected
+        if self.redSlider == nil {
+            return
+        }
+        
+        let r: CGFloat = CGFloat(self.redSlider.value)
+        let g: CGFloat = CGFloat(self.greenSlider.value)
+        let b: CGFloat = CGFloat(self.blueSlider.value)
+                
+        innerBox.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1)
+    }
 
 
 }

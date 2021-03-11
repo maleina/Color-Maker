@@ -33,6 +33,9 @@
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ujn-mo-Mss">
                                                         <rect key="frame" x="123" y="0.0" width="129" height="31"/>
+                                                        <connections>
+                                                            <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="8jL-2f-Vyl"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -47,6 +50,9 @@
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="RFa-lJ-jbQ">
                                                         <rect key="frame" x="123" y="0.0" width="129" height="31"/>
+                                                        <connections>
+                                                            <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="70p-sc-8Vs"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -61,6 +67,9 @@
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y6I-c0-bkO">
                                                         <rect key="frame" x="123" y="0.0" width="129" height="31"/>
+                                                        <connections>
+                                                            <action selector="changeColorComponent" destination="BYZ-38-t0r" eventType="valueChanged" id="WkR-Be-qgV"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -78,7 +87,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-Ub-YHm" userLabel="Inner Box">
                                                 <rect key="frame" x="8" y="8" width="235" height="145"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.5" green="0.49432063602901005" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -109,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2111" y="-631"/>
+            <point key="canvasLocation" x="1728" y="-702"/>
         </scene>
     </scenes>
     <resources>
