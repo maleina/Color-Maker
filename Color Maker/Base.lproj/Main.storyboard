@@ -100,10 +100,16 @@
                             <constraint firstItem="y0m-SK-8rO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gb2-DW-6oK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="Y6I-c0-bkO" id="l9s-G0-cZ8"/>
+                        <outlet property="greenSlider" destination="RFa-lJ-jbQ" id="fcd-lY-XHp"/>
+                        <outlet property="innerBox" destination="j6D-Ub-YHm" id="sWk-Bs-g77"/>
+                        <outlet property="redSlider" destination="ujn-mo-Mss" id="kuU-Ur-D81"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2325" y="-586"/>
+            <point key="canvasLocation" x="2111" y="-631"/>
         </scene>
     </scenes>
     <resources>
